@@ -45,7 +45,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* column-gap: 40px; no due to flex direction */
     row-gap: 40px;
+    /*or gap: 40px; */
+
 }
 .lang{
     font-size:small;
